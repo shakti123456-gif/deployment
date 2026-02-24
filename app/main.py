@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "FastAPI + Redis is running 🚀"}
+    return {"message": "shakti is my name  + Redis is running 🚀"}
 
 @app.get("/count")
 def count():
